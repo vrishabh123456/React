@@ -33,11 +33,11 @@ const Home = () => {
           product.map((item) => {
             return (
               <div>
-                <div className="w-[300px] rounded-md border my-2 ">
+                <div className="w-[300px] rounded-md border my-2">
                   <img
                     src={item.image}
                     alt="Laptop"
-                    className="h-[200px] p-4 px-20 rounded-md object-cover "
+                    className="h-[200px] p-4 px-20 rounded-md object-cover"
                   />
                   <div className=" ">
                     <h1 className="text-lg font-semibold line-clamp-1">{item.title}</h1>
